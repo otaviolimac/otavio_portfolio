@@ -4,7 +4,6 @@ import profilePhoto from '../assets/profile_photo.jpeg';
 import styles from '../styles/About.module.css';
 import blogStyles from '../styles/BlogItem.module.css';
 
-import Typewriter from 'typewriter-effect';
 import IconButton from "../components/IconButton";
 import { FaGithub } from "react-icons/fa";
 
@@ -18,19 +17,7 @@ function About() {
                 <div className={styles.container}>
                     <img className={styles.photo} src={profilePhoto} alt="Profile Photo" />
                     <div className={blogStyles.textColor + ' text'}>
-                        <Typewriter
-                            onInit={(typewriter) => {
-                                typewriter
-                                .typeString("Olá, meu nome é Otávio Lima, eu tenho 14 anos e sou apaixonado por tecnologia! Decidi me tornar desenvolvedor pelo meu gosto por jogos e sites, ou tecnologia no geral. Sou brasileiro nativo, sei falar inglês, não fluentemente. Atualmente estou dedicado nos estudos!")
-                                .start();
-                            }}
-                            options={{
-                                delay: 30,
-                                loop: false,
-                            }}
-                        />
-
-                        <span style={{marginTop: '30px'}} className={blogStyles.span + ' text'}>Sempre fui uma pessoa curiosa e apaixonada por tecnologia. Quando eu era jovem, gostava de entender como os sites, aplicativos e jogos funcionavam. Foi essa curiosidade que me fez, aos 12 anos, começar a estudar programação, através do curso do Gustavo Guanabara.</span>
+                        <span className={blogStyles.span + ' text'}>Sempre fui uma pessoa curiosa e apaixonada por tecnologia. Quando eu era jovem, gostava de entender como os sites, aplicativos e jogos funcionavam. Foi essa curiosidade que me fez, aos 12 anos, começar a estudar programação, através do curso do Gustavo Guanabara.</span>
                         <span style={{marginTop: '30px'}} className={blogStyles.span + ' text'}>Comecei entendendo como criar páginas, como funcionava o HTML, CSS e as primeiras interações com JavaScript. Depois de um tempo, percebi que não queria só fazer a parte visual, queria entender como as coisas funcionavam por trás, como os dados eram processados e como tudo se conectava.</span>
                         <span style={{marginTop: '30px'}} className={blogStyles.span + ' text'}>Hoje trabalho tanto na parte de desenvolvimento de interfaces quanto na parte lógica, criando funcionalidades, resolvendo problemas e buscando sempre criar soluções mais eficientes.</span>
                         <span style={{marginTop: '30px'}} className={blogStyles.span + ' text'}>Atualmente, já tenho domínio sobre diversas tecnologias, algumas delas são:</span>

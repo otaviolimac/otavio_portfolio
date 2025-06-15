@@ -1,0 +1,34 @@
+.container {
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin: 0 35px;
+}
+
+.container:hover span {
+    color: #767474;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.text {
+  font-size: 16px;
+  color: #dcdcdc;
+  font-weight: 500;
+  transition: color 0.5s;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+  transition: color 0.2s;
+}

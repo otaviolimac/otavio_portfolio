@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.span {
+    color: #f2f2f2;
+}
+
+.container p {
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .container div {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container div {
+    max-width: 500px;
+  }
+}

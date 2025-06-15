@@ -1,0 +1,24 @@
+.theme {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    margin: 8px 8px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    background-color: #363E59;
+    color: #0D0D0D;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.theme:hover {
+    color: #363E59;
+    background-color: transparent;
+}

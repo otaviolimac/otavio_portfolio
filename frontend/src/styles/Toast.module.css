@@ -1,0 +1,103 @@
+.toast {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  width: 400px;
+  border-radius: 8px;
+  font-weight: 500;
+  z-index: 10000;
+  color: white;
+  box-shadow: -4px 2px 6px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in forwards;
+}
+  
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #0D0D0D;
+}
+
+.success svg {
+  font-size: 24px;
+  color: #085e2c;
+}
+  
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #0D0D0D;
+}
+
+.error svg {
+  font-size: 24px;
+  color: #831d12;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .toast {
+    height: 50px;
+    width: 400px;
+  }
+
+  .error svg {
+    font-size: 30px;
+  }
+
+  .success svg {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toast {
+    height: 50px;
+    width: 300px;
+  }
+
+  .error p {
+    font-size: 15px;
+  }
+
+  .success p {
+    font-size: 15px;
+  }
+}
+  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+}
+  
+.fadeOut {
+  animation: fadeOut 0.5s ease-out forwards;
+}
+  
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px) translateX(-50%);
+  }
+}

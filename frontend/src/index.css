@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #00010D;
+}
+
+.light body {
+  background-color: #BABDBF;
+}
+
+.light .title {
+  color: #00010D;
+}
+
+.light .description {
+  color: #00010D;
+}
+
+.light .nav a {
+  color: #00010D;
+}
+
+.light .form label {
+  color: #00010D;
+}
+
+.light .footer {
+  color: #00010D;
+}
+
+.light .footer_herosection {
+  color: #00010D;
+}
+
+.light .a {
+  color: #595959;
+}
+
+.light .inputGroup input {
+  background-color: #404040;
+  color: #F2F2F2;
+}
+
+.light .inputGroup input::placeholder {
+  color: #F2F2F2;
+}
+
+.light .inputGroup button {
+  background-color: #404040;
+}
+
+.light .inputGroup button:hover {
+  background-color: #282828;
+}
+
+.light .arrow {
+  color: #00010D;
+}
+
+.light .arrow:hover {
+  color: #595959;
+}
+
+.light .text {
+  color: #00010D;
+}
+
+.light .date {
+  color: #00010D;
+}
+
+.light .toast {
+  background-color: #282828;
+}
+
+.light .container {
+  background-color: #404040;
+}
+
+.light .button {
+  background-color: #6e6e6e;
+}
+
+.light .language {
+  background-color: #6e6e6e;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #363E59;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #363E59;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #363E59 transparent;
+}

@@ -103,4 +103,16 @@
   .span {
     max-width: 350px;
   }
+
+  .header {
+    padding: 0;
+  }
+
+  .tags {
+    padding: 0;
+  }
+
+  .text {
+    padding: 0;
+  }
 }

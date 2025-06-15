@@ -7,14 +7,12 @@ import Projects from './pages/Projects';
 import Networks from './pages/Networks';
 import Course from './pages/Course';
 import Tech from './pages/Tech';
-import ToggleTheme from './components/ToggleTheme';
 import Costs from './pages/Costs';
 
 function App() {
 
   return (
     <>
-    <ToggleTheme />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HeroSection />} />

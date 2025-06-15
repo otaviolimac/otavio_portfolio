@@ -69,6 +69,11 @@
     z-index: 10;
 }
 
+.arrow {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 .arrow:hover {
     color: #8c8c8c;
 }

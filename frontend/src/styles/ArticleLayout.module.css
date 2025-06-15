@@ -76,6 +76,10 @@
   outline: none;
 }
 
+a, div, span {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .arrow:hover {
     color: #8c8c8c;
 }

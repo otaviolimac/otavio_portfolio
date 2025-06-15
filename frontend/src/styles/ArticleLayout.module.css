@@ -60,6 +60,8 @@
 }
 
 .arrow {
+    background: none;
+    border: none;
     position: absolute;
     left: calc(50% - 300px);
     font-size: 28px;

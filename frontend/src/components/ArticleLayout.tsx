@@ -23,9 +23,9 @@ function ArticleLayout({ title, content, inside }: ArticleLayoutProps) {
     return (
         <>
              <div className={styles.defaultHead}> 
-                <div className={styles.arrow + ' arrow'} onClick={goBack}>
+                <button className={styles.arrow + ' arrow'} onClick={goBack}>
                     <MdKeyboardArrowLeft />
-                </div>
+                </button>
                 <div className={styles.centered_text}>
                     <h2 className={styles.title + ' title'}>{title}</h2>
                 </div>

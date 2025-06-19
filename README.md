@@ -43,8 +43,8 @@ Um portfólio pessoal desenvolvido para apresentar meus projetos, trajetória e 
 
 ## 🔥 1. Clone o repositório
 ```bash
-git clone https://github.com/otaviolimaco/otavio.git
-cd otavio
+git clone https://github.com/otavioco/otavio_portfolio.git
+cd otavio_portfolio
 ```
 
 ---

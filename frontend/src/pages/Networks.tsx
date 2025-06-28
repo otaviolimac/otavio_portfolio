@@ -14,7 +14,7 @@ function Networks() {
                     icon={<FaGithub color="white" size={24} />}
                     backgroundColor="#1c1c1c"
                     borderColor="#1c1c1c"
-                    to={"https://github.com/otavioco"}
+                    to={"https://github.com/otaviolimac"}
                 />
                 <IconButton
                     icon={<FaInstagram color="white" size={24} />}
